@@ -909,7 +909,7 @@ Search
   
 .bottom_search {
     text-align: center;
-    background: url(images/picture9.png)
+    background: url(/images/picture9.png)
     no-repeat scroll center bottom / 90% 100% ;
     color:#FFF;
     min-height: 140px;
