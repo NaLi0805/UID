@@ -133,14 +133,14 @@
 		padding-bottom: 50%;
 		margin-left: 2%;
 		/* background-color:aquamarine; */
-		overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+		overflow: hidden;
 	}
 	.change_picture {
 		width:500%;
 		padding-bottom: 50%;
 		animation:text 30s infinite  linear;
 		margin:0px auto;
-		font-size:0px;/*消除图片间隔*/
+		font-size:0px;
 	}
 	.change_picture img{
 		width:20%;
@@ -148,7 +148,7 @@
 		float:left;
 		border-radius:5px;
 	}
-	@keyframes text {          /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+	@keyframes text {          
 		0%,10%{
 			margin-left:0%;
 		}
@@ -327,14 +327,14 @@
 		padding-bottom: 50%;
 		margin-left: 0%;
 		/* background-color:aquamarine; */
-		overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+		overflow: hidden;
 	}
 	.change_picture {
 		width:500%;
 		padding-bottom: 50%;
 		animation:text 30s infinite  linear;
 		margin:0px auto;
-		font-size:0px;/*消除图片间隔*/
+		font-size:0px;
 	}
 	.change_picture img{
 		width:20%;
@@ -342,7 +342,7 @@
 		float:left;
 		border-radius:5px;
 	}
-	@keyframes text {          /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+	@keyframes text {          
 		0%,10%{
 			margin-left:0%;
 		}

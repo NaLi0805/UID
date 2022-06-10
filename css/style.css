@@ -318,14 +318,14 @@ homepage
     height:400px;
     margin:5% 3%;
     /* background-color:aquamarine; */
-    overflow: hidden;/*用于隐藏超出展示容器的内容部分*/
+    overflow: hidden;
 }
 .change_picture {
     width:2000px;
     height:400px;
     margin:0px auto;
     animation:text 30s infinite  linear;
-    font-size:0px;/*消除图片间隔*/
+    font-size:0px;
     
 }
 .change_picture img{
@@ -334,7 +334,7 @@ homepage
     float:left;
     border-radius:5px;
 }
-@keyframes text {          /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+@keyframes text {          
     0%,10%{
         margin-left:0px;
     }
