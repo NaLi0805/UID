@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Details Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/responsive/paymentdetails-responsive.css">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src="js/index.js"></script>
+
+
+</head>
+<body>
+    <div class="top_bar">
+        <div class="top_title"> 
+            <!-- Hamburger -->
+			<div class="hamburger menu_mm btn"><a  href="http://127.0.0.1:8082/product%20list.html"><i class="fa fa-bars menu_mm" aria-hidden="true"></i></a></div>
+
+            <div class="top_left_title"> 
+                <h2 >Hi,Welcome to Norman Record</h2>
+            </div>
+            <div class="top_right_title">
+                <ul>
+                    <li>
+                        <div class="thefirst">
+                            <a>Records</a>
+                            <div class="thesecond">
+                                <ul>
+                                    <li class="child1">
+                                        <a>GENRE</a>
+                                        <div class="thethird">
+                                            <ul>
+                                                <li><a href="http://127.0.0.1:8082/product%20list.html">Jazz</a></li>
+                                                <li><a href="http://127.0.0.1:8082/product%20list.html">Pop</a></li>
+                                                <li><a href="http://127.0.0.1:8082/product%20list.html">Rock</a></li>
+                                            </ul>
+                                        </div>
+                                    <li class="child2"><a>FORMAT</a>
+                                    <li class="child3"><a>BANDS</a>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">New Realeases</a></li>
+                    <li><a href="#">Pre-Orders</a></li>
+                    <li><a href="#">Special Offers</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="line">
+        </div>
+        <div class="mid_title"> 
+            <div class="title">       
+                <a href="homepage.html"><h1>Norman </br>Records</h1></a>
+            </div>
+            <div class="top_search">
+                <form>
+                    <input class="input" type="email" placeholder="Enter Your Search Information">
+                    <button class="top_search-btn"><i class="fa fa-search"></i><h2>Search</h2></button>
+                </form>
+            </div>
+            <div class="header-ctn">
+                <ul>
+                    <li>
+                        <!-- /Wishlist -->
+                        <div class="header_sub_ctn">
+                            <a href="#">
+                                <i class="fa fa-heart-o"></i>
+                                <span>Your Wishlist</span>
+                                <div class="header_sub_ctn_qty">3</div>
+                            </a>
+                        </div>
+                    </li>
+                        <!-- Cart -->
+                    <li>
+                        <div class="header_sub_ctn">
+                            <a href="Shopping Cart.html">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Your Cart</span>
+                                <div class="header_sub_ctn_qty">2</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+    <div class="payment_details">
+        <ul>
+            <li>
+                    <table class="payment_left" width="40%" height="300">
+                        <tr>
+                            <td><div class="payment_title">
+                                <h1>Panyment Details</h1>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title1">
+                                    <ul>
+                                    <li><a style="text-align:left;" href="Shopping Cart.html" class="payment_Cart">Cart</a></li>
+                                    <li><a style="text-align:left;" href="Shopping Cart.html" class="fuhao">></a></li>
+                                    <li><a style="text-align:left;" href="Payment details.html" class="payment_Information">Information&Shipping</a></li>
+                                    <li><a style="text-align:left;" href="Payment details2.html" class="fuhao">></a></li>
+                                    <li><a style="text-align:left;" href="Payment details2.html" class="payment_Payment">Payment</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title2">
+                                    <ul>
+                                    <li><h2>Contact Information</h2></li>
+                                    <li><a href="#">Already have an account?</a></li>
+                                    <li><a href="#">Log in</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Email">
+                                <input type="text" name="payment_Email" id="email" placeholder="E-mail">
+                                <button type="button" onclick="check(this)" id="postEmail" class="verify_email">Verify E-mail</button>
+                                <p>Verify Result</p>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Shipping_Address">
+                                <h2>Shipping Address</h2>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title3">
+                                    <ul>
+                                    <li><input type="text" name="first_name" placeholder="First Name"></li>
+                                    <li><input type="text" name="last_name" placeholder="Last Name"></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Address">
+                                <li><input type="text"  placeholder="Address"></li>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Address">
+                                <li><input type="text" placeholder="City"></li>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title4">
+                                    <ul>
+                                        <li><input type="text" placeholder="Country region"></li>
+                                        <li><input type="text" placeholder="State"></li>
+                                        <li><input type="text" placeholder="ZIP Code"></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Address">
+                                <li><input type="text" placeholder="Phone"></li>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title4">
+                                    <ul>
+                                    <li><a href="http://127.0.0.1:8082/Shopping%20Cart.html" class="payment_Return_to_Cart">Return to Cart</a></li>
+                                    <li><a href="http://127.0.0.1:8082/Payment%20details2.html" class="payment_Continue_to_Payment">Continue to Payment</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        </table>
+            </li>
+            <li>
+                
+                    <table class="payment_right" width="100%" height="300" cellspacing="50">
+                        <tr>
+                            <td>
+                                <div>
+                                    <img src="images/picture 8.1.jpeg" width="200">
+                                </div>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <div class="payment_Malibu">
+                                            <h2>Malibu Nights: by Lany</h2>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div>
+                                            <button type="button" onclick="add(this)" class="jia_button cart_button payment_button">+</button>
+                                            <input type="text" value="1" style="text-align:center;" class="cart_text cart_button"/>
+                                            <button type="button" onclick="minus(this)" class="jian_button cart_button payment_button">-</button>
+                                        </div>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <div class="payment_money">
+                                    <h3>$8.99</h3>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <img src="images/picture2.jpeg" width="200">
+                                </div>
+                            </td>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <div class="payment_Malibu">
+                                            <h2>How What:by Low</h2>
+                                        </div>
+                                    </tr>
+                                    <tr>
+                                        <div>
+                                            <button type="button" onclick="add(this)" class="jia_button cart_button payment_button">+</button>
+                                            <input type="text" value="1" style="text-align:center;" class="cart_text cart_button"/>
+                                            <button type="button" onclick="minus(this)" class="jian_button cart_button payment_button">-</button>
+                                        </div>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td>
+                                <div  class="payment_money">
+                                    <h3>$8.99</h3>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="line_45"></div></td>
+                        </tr>
+                        <tr>
+                           <td colspan="3"><div class="payment_right_money">
+                                <ul>
+                                    <li><h4>subtotal</h4></li>
+                                    <li><h5>$17.98</h5></li>
+                                </ul></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><div class="payment_right_money">
+                                <ul>
+                                    <li><h6>Shipping Cost</h6></li>
+                                    <li><p>·$10.00</p></li>
+                                </ul></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="line_45"></div></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><div class="payment_right_money">
+                                <ul>
+                                    <li><h2>Total Cost</h2></li>
+                                    <li><h3>$27.98</h3></li>
+                                </ul>
+                            </div></td>
+                        </tr>
+                    </table>
+                </li>
+    </div>
+    <!-- search -->
+    <div class="bottom_search">
+        <div class="search_background"></div>
+        <p>Search your <strong>Interesting</strong></p>
+            <form>
+                <input class="input" type="email" placeholder="Enter Your Search information">
+                <button class="bottom_search-btn"><i class="fa fa-search"></i> Search</button>
+            </form>
+            <ul class="bottom_search-follow">
+                <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+            </ul>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="ABOUT_US footer_text">
+            <ul>
+                <li><h1>ABOUT US</h1></li>
+                <li><a href="#"><i class="fa fa-map-marker">1734 Stonecoal Road</i></a></li>
+                <li><a href="#"><i class="fa fa-phone">+021-95-51-84</i></a></li>
+                <li><a href="#"><i class="fa fa-envelope-o">email@email.com</i></a></li>
+            </ul>
+        </div>
+        <div class="CATEGORIES footer_text">
+            <ul>
+                <li><h1>CATEGORIES</h1></li>
+                <li><a href="#">Records</a></li>
+                <li><a href="#">New Realeases</a></li>
+                <li><a href="#">Pre-Orders</a></li>
+            </ul>
+        </div>
+        <div class="INFORMATION footer_text">
+            <ul>
+                <li><h1>INFORMATION</h1></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="SERVICE footer_text">
+            <ul>
+                <li><h1>SERVICE</h1></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">View Cart</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+</body>
+</html>

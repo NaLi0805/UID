@@ -1,0 +1,519 @@
+/* Font Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Header
+2. Home Page
+3. Product List Page
+4. Product Page
+5. Shopping Cart Page
+6. Payment Details Page
+7. Select
+8. Footer
+
+
+******************************/
+
+/*****
+Header
+*****/
+
+.top_right_title ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    color: rgb(5,5,5);
+    font-size: 18px;
+    line-height: 20px;
+}
+.top_right_title ul li a:hover {
+    color:#FFFFFF;
+}
+.search .input {
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding-left: 15px;
+    color: #cececf;
+    border: 1px solid rgb(0,164,255);
+    border-right: 0;
+}
+.title a {
+    float: left;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color:#050505;
+}
+.title a:hover {
+    color: #83A88C;
+}
+
+/******** 
+Home Page 
+********/
+
+.sum_picture1 h2 {
+    display: block;
+    margin: 10px 20px 18px 16px;
+    font-size: 15px;
+    color: #83A88C;
+}
+.sum_picture1 h3 {
+    display: block;
+    margin: 10px 20px 18px 16px;
+    font-size: 0.1rem;
+    color: #f30e0e;
+}
+.sum_picture2 h2 {
+    display: block;
+    margin: 10px 20px 18px 16px;
+    font-size: 14px;
+    color: #83A88C;
+}
+.sum_picture2 h3 {
+    display: block;
+    margin: 10px 20px 18px 16px;
+    font-size: 12px;
+    color: #f30e0e;
+}
+
+
+/****************
+Product List Page 
+****************/
+
+.jazz h3 {
+    font-size: 18px;
+    color: #7B292D;
+}
+.product_sum_picture1 h2{
+    font-size: 1rem;
+    color: #83A88C;
+}
+.product_sum_picture1 a {
+    display: block;
+    margin: 10px 20px 18px 16px;
+    text-align: center;
+    font-size: 14px;
+    color: #050505;
+}
+.product_sum_picture1 h3 {
+    display: block;
+    margin: 10px 20px 18px 16px;
+    font-size: 12px;
+    color: #f30e0e;
+}
+.product_sum_picture1 h4 {
+    display: block;
+    margin-left: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 12px;
+    width: 40%;
+    color:#FFFFFF;
+    border-style: solid;
+    background-color:#83A88C ;
+    border-color:#83A88C;
+    border-radius:20px;
+    border-width: 1px;
+}
+
+
+/*********** 
+Product Page
+***********/
+
+.product_right_part h2 {
+    color: #83A88C;
+}
+.product_right_part h3 {
+    color: #B82430;
+}
+.product_right_part h4 {
+    color: #6D6D6D;
+}
+.product_right_part p {
+    width: 400px;
+    font-size:smaller;
+    color: #6D6D6D;
+}
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 16px;
+    background-color:#83A88C;
+}
+.product_Qty_1 {
+    display: flex;
+    width: 80px;
+    height: 42px;
+    color: rgb(5,5,5);
+    font-size: 18px;
+    line-height: 42px;
+    border-style: solid;
+    border-color:#C4C4C4;
+    border-radius:20px;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.product_Qty_1:hover {
+    background-color: #dedede;
+}
+.drop_list_item {
+    height: 24px;
+    width: 103px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.drop_list_item:hover
+{
+    background-color: #d4dce3;
+}
+.product_Add_to_Cart a {
+    display:inline-block;
+    text-align: center;
+    width: 180px;
+    height: 42px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 42px;
+    border-style: solid;
+    background-color:#CFDDCE ;
+    border-color:#C4C4C4;
+    border-radius:20px;
+    border-width: 1px;
+}
+.product_sub_title ul li h3 {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    color: rgb(5,5,5);
+    font-size: 18px;
+    line-height: 42px;
+}
+.product_title h2 {
+    float: left;
+    color: #7B292D;
+    width: 100%;
+    margin-top: 2%;
+}
+.prodict_music_sub_list ul li p {
+    display: block;
+    width: 100px;
+    height: 42px;
+    padding: 0 10px;
+    color: rgb(5,5,5);
+    font-size: 18px;
+    line-height: 42px;
+}
+
+/*****************
+Shopping Cart page 
+*****************/
+
+.My_Cart {
+    float: left;
+    width: 100%;
+    color: #7B292D;
+    font-size: 13px;
+}
+.My_Cart h1 {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.cart_picture1 h2 {
+    display: block;
+    width: 142px;
+    height: 42px;
+    padding: 50px 10px;
+    color: #83A88C;
+    font-size: 18px;
+    line-height: 42px;
+}
+.cart_picture1 h3 {
+    display: block;
+    width: 100px;
+    height: 42px;
+    color: #B82430;
+    font-size: 18px;
+    line-height: 42px;
+}
+.cart_delete_button {
+    width: 60px;
+    color: #E5E5E5;
+    background-color: #83A88C;
+}
+.jia_button {
+    width: 20px;
+    height: 34px;
+    color: #E5E5E5;
+    background:#83A88C;
+}
+.jian_button {
+    width: 20px;
+    height: 34px;
+    color: #E5E5E5;
+    background:#83A88C;
+}
+.Order_Information {
+    float: left;
+    width: 100%;
+    color: #7B292D;
+    font-size: 13px;
+}
+.Order_Information h1 {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.cart_Subtotal_list {
+    float:left;
+    margin-left: 180px;
+}
+.cart_Subtotal_list h2 {
+    margin-right: 150px;
+    font-size: 20px;
+}
+.cart_Subtotal_list h3 {
+    margin-right: 150px;
+    font-size: 20px;
+    color: #B82430;
+}
+.cart_Subtotal_list h4 {
+    margin-right: 150px;
+    font-size: 15px;
+    color: #898686;
+}
+.cart_money_list h2{
+    font-size: 25px;
+}
+.cart_money_list h3{
+    font-size: 25px;
+    color: #B82430;
+}
+.cart_checkout ul li a {
+    display: block;
+    width: 150px;
+    height: 40px;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-left: 60px;
+    line-height: 42px;
+    border-style: solid;
+    background-color:#CFDDCE ;
+    border-color:#C4C4C4;
+    border-radius:10px;
+    border-width: 1px;
+}
+
+/******************
+Payment Detail Page
+******************/
+
+.payment_title h1 {
+    display: block;
+    width: 100%;
+    height: 20px;
+    padding: 20px 50%;
+    color: #7B292D;
+    font-size: 30px;
+    line-height: 42px;
+}
+.payment_sub_title1 ul li a {
+    display: block;
+    height: 20px;
+    font-size: 13px;
+    line-height: 42px;
+    margin-top: 20px;
+}
+.payment_sub_title1 ul li a:hover, .payment_sub_title1 ul li a:focus {
+    color: #83A88C;
+}
+.payment_Cart {
+    color:#050505;
+    width:40px;
+    margin-left:10px;
+}
+.fuhao {
+    color:#050505;
+    width:20px;
+}
+.payment_Information {
+    color:#898686;
+    width:140px;
+    margin-left:10px;
+    margin-right:10px;
+}
+.payment_Payment {
+    color:#050505;
+    width:40px;
+    margin-left:10px;
+}
+.payment_left h2 {
+    display: block;
+    font-size: 25px;
+    margin:40px 40px 0px 40px;
+}
+.payment_sub_title2 ul li a {
+    float: right;
+    color:#050505;
+    height: 20px;
+    font-size: 13px;
+    line-height: 42px;
+    margin:20px 50px;
+} 
+.payment_sub_title2 ul li a:hover, .payment_sub_title2 ul li a:focus {
+    color: #83A88C;
+}
+.payment_Email input{
+    width:90%;
+    height:20px;
+    margin-top: 10px;
+    margin-left: 65px;
+    font-size:16px;
+    padding: 10px 10px;
+    background-color:#FFFFFF ;
+    border-color:#C4C4C4;
+}
+.payment_sub_title3 input{
+    width:64%;
+    height:20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size:16px;
+    padding: 10px 10px;
+    background-color:#FFFFFF ;
+    border-color:#C4C4C4;
+}
+.payment_Address input{
+    width:138%;
+    height:20px;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size:16px;
+    padding: 10px 10px;
+    background-color:#FFFFFF ;
+    border-color:#C4C4C4;
+}
+.payment_sub_title4 {
+    margin-left: 133px;
+}
+.payment_sub_title4 input{
+    width:75%;
+    height:20px;
+    margin-top: 0px;
+    margin-left: -70px;
+    font-size:16px;
+    padding: 10px 10px;
+    background-color:#FFFFFF ;
+    border-color:#C4C4C4;
+}
+.payment_Shipping_Address h2 {
+    display: block;
+    font-size: 25px;
+    margin:20px 40px;
+}
+
+.payment_Return_to_Cart {
+    float:left;
+    width: 160px;
+    height: 40px;
+    color:#050505;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: -70px;
+}
+.payment_Continue_to_Payment {
+    float:left;
+    width: 200px;
+    height: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    line-height: 42px;
+    border-style: solid;
+    background-color:#CFDDCE ;
+    border-color:#C4C4C4;
+    border-radius:10px;
+    border-width: 1px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+.payment_sub_title4 a:focus, .payment_sub_title4 a:hover {
+    color: #83A88C;
+}
+.payment_Card input{
+    width:90%;
+    height:20px;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-size:16px;
+    padding: 10px 10px;
+    background-color:#FFFFFF ;
+    border-color:#C4C4C4;
+}
+.payment_Malibu h2 {
+    font-size: 18px;
+    color:#83A88C;
+}
+.payment_money h3 {
+    color:#B82430;
+}
+.payment_right_money ul li h4{
+    float: left;
+    margin-left: 20px;
+}
+.payment_right_money ul li h5{
+    float: left;
+    margin-left: 420px;
+}
+.payment_right_money ul li h6{
+    float: left;
+    margin-left: 20px;
+}
+.payment_right_money ul li p{
+    float: left;
+    margin-left: 420px;
+}
+.payment_right_money ul li h2{
+    float: left;
+    margin-left: 20px;
+}
+.payment_right_money ul li h3{
+    float: left;
+    margin-left: 380px;
+}
+.payment_sub_title5 ul li h3 {
+    display: block;
+    font-size: 16px;
+    width: 200px;
+    padding: 10px 10px;
+    height:20px;
+    border-style: solid;
+    background-color:#FFFFFF ;
+    border-color:#C4C4C4;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-right:10px;
+}
+.payment_Shipping_Address1 h2 {
+    display: block;
+    font-size: 25px;
+    margin:40px 40px;
+}
+.payment_details p {
+    float: left;
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
