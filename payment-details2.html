@@ -16,7 +16,7 @@
     <div class="top_bar">
         <div class="top_title"> 
             <!-- Hamburger -->
-			<div class="hamburger menu_mm btn"><a  href="http://127.0.0.1:8082/product%20list.html"><i class="fa fa-bars menu_mm" aria-hidden="true"></i></a></div>
+			<div class="hamburger menu_mm btn"><a  href="product-list.html"><i class="fa fa-bars menu_mm" aria-hidden="true"></i></a></div>
 
             <div class="top_left_title"> 
                 <h2 >Hi,Welcome to Norman Record</h2>
@@ -32,9 +32,9 @@
                                         <a>GENRE</a>
                                         <div class="thethird">
                                             <ul>
-                                                <li><a href="http://127.0.0.1:8082/product%20list.html">Jazz</a></li>
-                                                <li><a href="http://127.0.0.1:8082/product%20list.html">Pop</a></li>
-                                                <li><a href="http://127.0.0.1:8082/product%20list.html">Rock</a></li>
+                                                <li><a href="product-list.html">Jazz</a></li>
+                                                <li><a href="product-list.html">Pop</a></li>
+                                                <li><a href="product-list.html">Rock</a></li>
                                             </ul>
                                         </div>
                                     <li class="child2"><a>FORMAT</a>
@@ -54,11 +54,11 @@
         </div>
         <div class="mid_title"> 
             <div class="title">       
-                <a href="homepage.html"><h1>Norman </br>Records</h1></a>
+                <a href="index.html"><h1>Norman </br>Records</h1></a>
             </div>
             <div class="top_search">
                 <form>
-                    <input class="input" type="email" placeholder="Enter Your Search Information">
+                    <input class="input" type="email" placeholder="Search Your Information">
                     <button class="top_search-btn"><i class="fa fa-search"></i><h2>Search</h2></button>
                 </form>
             </div>
@@ -77,7 +77,7 @@
                         <!-- Cart -->
                     <li>
                         <div class="header_sub_ctn">
-                            <a href="Shopping Cart.html">
+                            <a href="shopping-cart.html">
                                 <i class="fa fa-shopping-cart"></i>
                                 <span>Your Cart</span>
                                 <div class="header_sub_ctn_qty">2</div>
@@ -92,80 +92,82 @@
     <div class="payment_details">
         <ul>
             <li>
-                <table class="payment_left" width="40%" height="300">
-                    <tr>
-                        <td><div class="payment_title">
-                            <h1>Panyment Details</h1>
-                        </div></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="payment_sub_title1">
+                <form method="get" name="form" action="/html/confirmation.html" onSubmit="return beforeSubmit2(this);">
+                    <table class="payment_left" width="40%" height="300">
+                        <tr>
+                            <td><div class="payment_title">
+                                <h1>Panyment Details</h1>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title1">
+                                    <ul>
+                                    <li><a style="text-align:left;" href="shopping-cart.html" class="payment_Cart">Cart</a></li>
+                                    <li><a style="text-align:left;" href="shopping-cart.html" class="fuhao">></a></li>
+                                    <li><a style="text-align:left;" href="payment-details.html" class="payment_Information">Information&Shipping</a></li>
+                                    <li><a style="text-align:left;" href="payment-details2.html" class="fuhao">></a></li>
+                                    <li><a style="text-align:left;" href="payment-details2.html" class="payment_Payment">Payment</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Shipping_Address1">
+                                <h2>Select Payment Mehtod</h2>
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
                                 <ul>
-                                <li><a style="text-align:left;" href="Shopping Cart.html" class="payment_Cart">Cart</a></li>
-                                <li><a style="text-align:left;" href="Shopping Cart.html" class="fuhao">></a></li>
-                                <li><a style="text-align:left;" href="Payment details.html" class="payment_Information">Information&Shipping</a></li>
-                                <li><a style="text-align:left;" href="Payment details2.html" class="fuhao">></a></li>
-                                <li><a style="text-align:left;" href="Payment details2.html" class="payment_Payment">Payment</a></li>
+                                    <li><input type="radio" class="radio"/></li>
+                                    <li><p>Paypal</p></li>
                                 </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><div class="payment_Shipping_Address1">
-                            <h2>Select Payment Mehtod</h2>
-                        </div></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li><input type="radio" class="radio"/></li>
-                                <li><p>Paypal</p></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr><td><div class="line_50"></div></td></tr>
-                    <tr>
-                        <td>
-                            <ul>
-                                <li><input type="radio" class="radio"/></li>
-                                <li><p>Credit/Debit Card</p></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><div class="payment_Card">
-                            <input type="text" placeholder="Card Holder">
-                        </div></td>
-                    </tr>
-                    <tr>
-                        <td><div class="payment_Card">
-                            <input type="text" placeholder="Card Number">
-                        </div></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="payment_sub_title3">
+                            </td>
+                        </tr>
+                        <tr><td><div class="line_50"></div></td></tr>
+                        <tr>
+                            <td>
                                 <ul>
-                                    <li><input type="text" placeholder="Expiration Date (MM/YY)"></li>
-                                    <li><input type="text" placeholder="Security Code"></li>
+                                    <li><input type="radio" class="radio"/></li>
+                                    <li><p>Credit/Debit Card</p></li>
                                 </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="payment_sub_title4">
-                                <ul>
-                                <li><a href="Shopping Cart.html" class="payment_Return_to_Cart">Return to Cart</a></li>
-                                <li><a href="Confirmation.html" class="payment_Continue_to_Payment">Continue to Confirmation</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Card">
+                                <input type="text" name="payment_cardholder" placeholder="Card Holder">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td><div class="payment_Card">
+                                <input type="text" name="payment_cardnumber" placeholder="Card Number">
+                            </div></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title3">
+                                    <ul>
+                                        <li><input type="text" name="payment_form_date" placeholder="Expiration Date (MM/YY)"></li>
+                                        <li><input type="text" name="payment_security" placeholder="Security Code"></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="payment_sub_title6">
+                                    <ul>
+                                    <li><a href="shopping-cart.html" class="payment_Return_to_Cart">Return to Cart</a></li>
+                                    <li><input value="Continue to Confirmation" type="submit" ></li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
                     </table>
-        </li>
-        <li>             
+                </form>
+            </li>
+            <li>             
                 <table class="payment_right payment_right2" width="100%" height="300" cellspacing="50">
                     <tr>
                         <td>
@@ -254,14 +256,15 @@
                         </div></td>
                     </tr>
                 </table>
-                </li>
+            </li>
+        </ul>
     </div>
     <!-- search -->
     <div class="bottom_search">
         <div class="search_background"></div>
         <p>Search your <strong>Interesting</strong></p>
             <form>
-                <input class="input" type="email" placeholder="Enter Your Search information">
+                <input class="input" type="email" placeholder="Search Your Information">
                 <button class="bottom_search-btn"><i class="fa fa-search"></i> Search</button>
             </form>
             <ul class="bottom_search-follow">

@@ -375,7 +375,7 @@ Payment Detail Page
     color: #83A88C;
 }
 .payment_Email input{
-    width:90%;
+    width:110%;
     height:20px;
     margin-top: 10px;
     margin-left: 65px;
@@ -516,4 +516,19 @@ Payment Detail Page
     margin-top: 20px;
     margin-left: 80px;
     margin-bottom: 20px;
+}
+.payment_sub_title6 {
+    margin-left: 133px;
+}
+.payment_sub_title6 input{
+    width:120%;
+    height:40px;
+    margin-top: 50px;
+    margin-left: 5px;
+    font-size:14px;
+    padding: 10px 10px;
+    border-radius: 10%;
+    color: #FFFFFF;
+    background-color:#83A88C;
+    border-color:#C4C4C4;
 }

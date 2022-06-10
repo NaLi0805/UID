@@ -120,7 +120,7 @@ Header
 }
 .top_left_title {
     float: left;
-    margin-top:2%;
+    margin-top:1.5%;
     margin-left:5%;
     height: 60%;
 }
@@ -158,6 +158,7 @@ Header
     margin-top: 2%; 
     margin-left: 12%; 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
 }
 .top_search {
     float: left;
@@ -671,6 +672,7 @@ Shopping Cart Page
 /*******************
 Payment Details Page
 *******************/
+
 .payment_details {
     float: left;
 }
@@ -716,7 +718,7 @@ Payment Details Page
     margin-left: 13px;
 }
 .payment_Card {
-    width:109%;
+    width:116%;
     margin-top: 20px;
     margin-left: 13px;
 }
@@ -808,7 +810,13 @@ Payment Details Page
 .verify_email:focus, .verify_email:hover {
     color: #83A88C;
 }
-
+.payment_sub_title6 {
+    width: 130%;
+    margin-top: 20px;
+}
+.payment_sub_title6 ul li {
+    float: left;
+}
 /***********
 Confirmation
 ***********/

@@ -1,23 +1,18 @@
 function add(btn) {
-    //数量*价格
-    //1、获取到当前input框数值，并更新input框
-    //parentElement:获取父节点	children:获取子节点
+    
 var num=btn.parentElement.children[1].value;
-    //parentElement:获取父节点	children:获取子节点
+    
 btn.parentElement.children[1].value=++num;
-    //2、获取单价,字符串
-    //parentElement:获取父节点		//previousElementSibling：获取哥哥节点
+    
 var proce=btn.parentElement.previousElementSibling.innerText;
 }
 
 
-//购物车减少数量
 function minus(btn){
-//数量*价格
-//1、获取到当前input框数值，并更新input框
-//parentElement:获取父节点	children:获取子节点
+
+
 var num=btn.parentElement.children[1].value;
-//设置不能减到负数，到0就不能减
+
 if(num==0){
     return;
 }
@@ -27,11 +22,11 @@ btn.parentElement.children[1].value=--num;
 
 function check(_btn) {
     var post = document.getElementById('postEmail');
-        post.addEventListener('click', function() { //给按钮添加2级监听事件
-            //获取p标签节点
+        post.addEventListener('click', function() { 
+            
             var content = document.querySelector('p');
 
-            //获取input输入框中的值
+            
             var eStr = document.getElementById('email').value;
 
             var reg = /^([A-z0-9_-]+)@([A-z0-9_-]+)+(\.([A-z0-9_-]+))+$/g;
@@ -39,16 +34,80 @@ function check(_btn) {
             if (eStr.match(reg)) {
                 content.innerHTML = eStr + 'The E-mail Address is Correct';
             } else {
-                content.innerHTML = eStr + ' The E-main Address is Wrong, Please Enter Again';
+                content.innerHTML = eStr + ' The E-mail Address is Wrong, Please Enter Again';
             }
         })
 }
 
+    function beforeSubmit(form){
+        if(form.payment_Email.value==''){
+            alert('Please enter a valid email');
+            form.payment_Email.focus();
+            return false;
+        }
+        if(form.payment_first_name.value==''){
+            alert('Please enter first name');
+            form.payment_first_name.focus();
+            return false;
+        }
+        if(form.payment_last_name.value==''){
+            alert('Please enter last name');
+            form.payment_last_name.focus();
+            return false;
+        }
+        if(form.payment_address.value==''){
+            alert('Please enter address');
+            form.payment_address.focus();
+            return false;
+        }
+        if(form.payment_city.value==''){
+            alert('Please enter cuty');
+            form.payment_city.focus();
+            return false;
+        }
+        if(form.payment_country.value==''){
+            alert('Please enter country');
+            form.payment_country.focus();
+            return false;
+        }
+        if(form.payment_state.value==''){
+            alert('Please enter state');
+            form.payment_state.focus();
+            return false;
+        }
+        if(form.payment_code.value==''){
+            alert('Please enter ZIP Code');
+            form.payment_code.focus();
+            return false;
+        }
+        if(form.payment_phone.value==''){
+            alert('Please enter phone');
+            form.payment_phone.focus();
+            return false;
+        }
+        return true;
+        }
 
-
-
-
-
-
-
-
+        function beforeSubmit2(form){
+            if(form.payment_cardholder.value==''){
+                alert('Please enter Card Holder');
+                form.payment_cardholder.focus();
+                return false;
+            }
+            if(form.payment_cardnumber.value==''){
+                alert('Please enter Card Number');
+                form.payment_cardnumber.focus();
+                return false;
+            }
+            if(form.payment_form_date.value==''){
+                alert('Please enter Expiration Date (MM/YY)');
+                form.payment_form_date.focus();
+                return false;
+            }
+            if(form.payment_security.value==''){
+                alert('Please enter Security Code');
+                form.payment_security.focus();
+                return false;
+            }
+            return true;
+            }
